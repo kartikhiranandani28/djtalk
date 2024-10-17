@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-4 text-center">
+    <h2 class="text-danger">You've Been Logged Out</h2>
+    <p class="lead">We're sorry to see you go! If you want to return, you can log back in anytime.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary btn-lg">Login Here</a>
+</div>
+{% endblock %}
